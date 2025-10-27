@@ -26,14 +26,6 @@ FROM dbo.zillow_properties_florida
 GROUP BY Property_type
 ORDER BY COUNT(*) DESC;
 
--- Bedrooms/Bathrooms vs. Average Price
-SELECT Bedrooms,
-       Bathrooms,
-       AVG(Property_price_USD) AS avg_prop_price
-FROM dbo.zillow_properties_florida
-GROUP BY Bedrooms, Bathrooms
-ORDER BY AVG(Property_price_USD) DESC;
-
 -- Market Tier Segmentation (Low, Mid, High Tier)
 WITH PriceStats AS (
     SELECT
@@ -53,3 +45,4 @@ SELECT City,
            ELSE 'High Tier'
        END AS price_tier
 FROM PriceStats;
+

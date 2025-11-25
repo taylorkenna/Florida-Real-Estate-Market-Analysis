@@ -19,7 +19,7 @@ It is important for investors to know which cities offer the best value, where p
 
 ### 2. Exploratory Data Analysis with SQL
 * Calculated average property prices, days on market, and price per square foot by city
-* Analyzed property type distributions and price differences by bedroom/bathroom combinations
+* Analyzed property type distributions
 * Segmented cities into low, mid, and high-tier markets based on quartile pricing
 
 ### 3. Visualization in Power BI

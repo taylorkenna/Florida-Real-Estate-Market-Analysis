@@ -1,6 +1,6 @@
 # Florida-Real-Estate-Market-Analysis
 
-### Skills: SQL, Power BI
+### Skills: SQL, Power BI, EDA
 
 ## Executive Summary:
 This project analyzes Florida real estate market trends using housing data from Zillow.The goal was to uncover key factors influencing property prices, market activity, and affordability across different cities in Florida.

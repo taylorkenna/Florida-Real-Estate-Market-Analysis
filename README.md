@@ -27,7 +27,7 @@ It is important for investors to know which cities offer the best value, where p
 * Designed visuals including bar charts, pie charts, and treemaps
 
   <p align="center">
-  <img width="1300" height="738" src="Florida Real Estate Dashboard PDF.pdf">
+  <img width="1300" height="738" src="updated_dashboard.png">
 </p>
 
 ## Key Findings: 
